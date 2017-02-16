@@ -45,7 +45,7 @@ psql -d perfect_testing -U perfect
 
 Now that we have our database set up, we'll create a new Perfect project that stores a simple object into the database.
 
-StORM makes this very simple: we just need to make our model object conform to the PostgresStORM protocol. Basically this means we have to write a method to convert our object into a row of data, and then another method to convert a result set into an array of our model objects.
+StORM makes this very simple: we just need to make our model object derive from PostgresStORM. By doing so, we're required to write a few methods, such as one to return the database table corresponding to the object, and another to convert a row of data into an object.
 
 Once we've done that, StORM has built-in methods like save(), findAll() and so on that makes storing and retrieving our data easy. The easiest way to understand how this works is to see it in action, so let's dive in.
 
@@ -63,7 +63,7 @@ touch Sources/Acronym.swift
 
 Then back in Perfect Assistant, I'll drag Postgres-StORM up into the dependencies list, and click Save Changes. This will auto-regneerate the Xcode proejct, so at this point I can just click Open\Xcode project.
 
-Let's start by making our acronym model object. We'll import StORM and PostgresStORM, and mark our model object as conforming to the PostgresStORM protocol. 
+Let's start by making our acronym model object. We'll import StORM and PostgresStORM, and mark our model object as deriving from PostgresStORM. 
 
 Our acronym will have three properties: one, its unique ID in the database, second, the short form of the acronym, like "BRB", and third the long form of the acronym like "Be Right Back."
 
@@ -80,13 +80,13 @@ class Acronym: PostgresStORM {
 }
 ```
 
-The first method we have to implement to conform to PostgresStORM is table. Here we simply return the name of the database table that corresponds to this model object. We'll call it acronyms.
+The first method we're required to implement is table(). Here we simply return the name of the database table that corresponds to this model object. We'll call it acronyms.
 
 ```
 	override open func table() -> String { return "acronyms" }
 ```
 
-The second method you have to implement to conform to PostgresStORM is to. HEre you receive a row of data from the database, and you have to set each of your properties accordingly. I'll just look in the data dictionary for each field and set the property accordingly, casting if necessary.
+The second method we're required to implement is to(). HEre you receive a row of data from the database, and you have to set each of your properties accordingly. I'll just look in the data dictionary for each field and set the property accordingly, casting if necessary.
 
 ```
 	override func to(_ this: StORMRow) {

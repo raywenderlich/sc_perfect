@@ -4,7 +4,7 @@ Hey what's up everybody, this is Ray. In today's screencast, I'm going to introd
 
 Before we begin, I just want to mention that I've made a similar screencast series on a different Server Side Swift framework called Vapor. Server Side Swift is in still the early days and there's a lot of great server side swift frameworks out there to choose between, including Vapor, Perfect, Kitura, and Zewo. I'm just trying to show you what the options are, and how each of them work. 
 
-If you've already watched my Vapor series, this one's very similar - it's just showing you how to do the same things in a different framework. If you haven't watched my Vapor series, I recommend you choose whichever framework you want to work with and watch that series - or if you aren't sure, you can watch both and make your own decision.
+If you've already watched my Vapor series, this one's very similar - it's just showing you how to do the exact same things in a different framework. If you haven't watched my Vapor series, I recommend you choose whichever framework you want to work with and watch that series - or if you aren't sure, you can watch both and make your own decision.
 
 Allright, back to Pefect. Perfect is an open source server side Swift framework created by a startup called PerfectlySoft Inc. Basically Perfect lets you write web applications, and web services, using Swift. 
 
