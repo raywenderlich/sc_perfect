@@ -1,0 +1,10 @@
+{{> header}}
+
+    {{#users}}
+      <h1>Hello, {{name}}! <a href="mailto:{{email}}">[Email]</a></h1>
+    {{/users}}
+    {{^users}}
+      <h1>No users :[</h1>
+    {{/users}}
+
+{{> footer}}
