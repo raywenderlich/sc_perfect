@@ -1,4 +1,4 @@
-## Server Side Swift with Perfect: Getting Started
+## Server Side Swift with Perfect: Getting Started (1937 words, ~8.7 min)
 
 Hey what's up everybody, this is Ray. In today's screencast, I'm going to introduce you to a really popular server side swift framework called Perfect.
 

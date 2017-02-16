@@ -1,4 +1,4 @@
-## Server Side Swift with Perfect: Beautifying Pages with Skeleton
+## Server Side Swift with Perfect: Beautifying Pages with Skeleton (~1455 words, ~6.5 min)
 
 Hey what's up everybody, this is Ray. In this screencast, I'm going to show you how you can easily beautify your Perfect web apps using Skeleton.
 

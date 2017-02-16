@@ -1,4 +1,4 @@
-## Server Side Swift with Vapor: Persisting Models with StORM
+## Server Side Swift with Vapor: Persisting Models with StORM (1788 words, ~8 min)
 
 Hey what's up everybody, this is Ray. In this screencast, I'm going to show you how you can persist your data models into a database using a popular server side swfit framework called StORM.
 

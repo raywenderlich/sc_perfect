@@ -1,4 +1,4 @@
-## Server Side Swift with Perfect: Deploying with Perfect Assistant
+## Server Side Swift with Perfect: Deploying with Perfect Assistant (1242 words, ~5.5 min)
 
 Hey what's up everybody, this is Ray. In today's screencast, I'm going to show you how you can use Perfect Assistant to easily deploy your server side swift with Perfect apps to Amazon EC2.
 

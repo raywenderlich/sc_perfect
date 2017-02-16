@@ -1,4 +1,4 @@
-## Server Side Swift with Perfect: CRUD Database Operations with StORM 
+## Server Side Swift with Perfect: CRUD Database Operations with StORM (1702 words, ~7.6 min)
 
 ## Introduction
 

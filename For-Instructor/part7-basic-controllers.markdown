@@ -1,4 +1,4 @@
-## Server Side Swift with Perfect: Basic Controllers 
+## Server Side Swift with Perfect: Basic Controllers (1133 words, ~5.1 min)
 
 Hey what's up everybody, this is Ray. In this screencast, I'm going to show you how you can better organize your Perfect apps by using basic controller objects.
 

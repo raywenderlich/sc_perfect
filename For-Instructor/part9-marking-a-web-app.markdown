@@ -1,4 +1,4 @@
-## Server Side Swift with Perfect: Making a Web App 
+## Server Side Swift with Perfect: Making a Web App (1286 words, ~5.8 min)
 
 Hey what's up everybody, this is Ray. In this screencast, I'm going to show you how you can make a simple database-driven web app with Perfect.
 

@@ -1,4 +1,4 @@
-## Server Side Swift with Perfect: Introduction to Perfect Assistant
+## Server Side Swift with Perfect: Introduction to Perfect Assistant (1504 words, ~6.7 min)
 
 Hey what's up everybody, this is Ray. In today's screencast, I'm going to show you how you can use the Perfect Assistant to make  server side swift development with Perfect even easier.
 

@@ -1,4 +1,4 @@
-## Server Side Swift with Perfect: Templating with Mustache
+## Server Side Swift with Perfect: Templating with Mustache (2067 words, ~9.3 min)
 
 Hey what's up everybody, this is Ray. In this screencast, I'm going to show you how you can use templating in your server side Swift apps - with Perfect and Mustache.
 
