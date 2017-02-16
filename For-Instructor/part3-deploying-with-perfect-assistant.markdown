@@ -63,7 +63,7 @@ aws ec2 import-key-pair --key-name "perfect-key" --public-key-material file://$H
 
 Another thing you need when you create an instance is a security group. In general, it's best to configure your security group to only allow access to the ports your web app needs.
 
-To do this, I'll log onto Amazon EC2 and click security Groups, and create security group. For security group name I'll enter til, and then give a description. I'll add a new inbound rule with protocol TCP, port range 8080, because that's what the web app we'll be deploying is configured to listen on, and source to anywhere. I'll also allow connections on port 22 for SSH. Finally I'll click Create.
+To do this, I'll log onto Amazon EC2 and click security Groups, and create security group. For security group name I'll enter hello-perfect, and then give a description. I'll add a new inbound rule with protocol TCP, port range 8080, because that's what the web app we'll be deploying is configured to listen on, and source to anywhere. I'll also allow connections on port 22 for SSH. Finally I'll click Create.
 
 Now let's configure Perfect Assistant to use these credentials as well. In the Welcome pane, I'll click Configure EC2 Credentials, click Create, enter perfect for the credentials name, and enter my access key id and secret key. Again I'll do this offline.
 
@@ -73,7 +73,7 @@ Next we need a project we want to deploy. I happen to have a simple Perfect app 
 http://localhost:8080
 ```
 
-Now let's deploy this. I'll click Build\Deploy, and Create New. I'll choose amazon Web Services, and next. I'll enter perfect for the Configuration Name, note that my perfect ec2 credentials are already selected, and browse to the SSH private key I created earlier. I'll then click Add, click my til security group, and make sure that we're using a nano instance, the perfec-key keypair, the availability zone we want, and click Launch.
+Now let's deploy this. I'll click Build\Deploy, and Create New. I'll choose amazon Web Services, and next. I'll enter perfect for the Configuration Name, note that my perfect ec2 credentials are already selected, and browse to the SSH private key I created earlier. I'll then click Add, click my hello-perfect security group, and make sure that we're using a nano instance, the perfec-key keypair, the availability zone we want, and click Launch.
 
 After a while, I'll see success in the console. If I click reload, I see my new instance. I can also see this in the AWS dashboard. 
 

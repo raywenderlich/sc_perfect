@@ -51,7 +51,7 @@ Once we've done that, StORM has built-in methods like save(), findAll() and so o
 
 ## Demo
 
-I've already got the Swift 3 toolchain and Perfect Assistant installed, so I'll create a new project in Perfect Assistant, using the Perfect Template App template. I'll browse to a directory to store this project in, and create a new directory called hello-persistence, uncheck integrate Linux builds to save compile time, and click Save.
+I've already got the Swift 3 toolchain and Perfect Assistant installed, so I'll create a new project in Perfect Assistant, using the Perfect Template App template. I'll browse to a directory to store this project in, and create a new directory called til - because that is the name of the web app we're eventually making - uncheck integrate Linux builds to save compile time, and click Save.
 
 Perfect Assistant will set up a "Hello, Perfect" project for me. Before I open the project, I need to do two configuration things.
 

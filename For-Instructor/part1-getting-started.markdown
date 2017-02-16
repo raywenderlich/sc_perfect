@@ -28,14 +28,14 @@ http://perfect.org/docs/gettingStarted.html
 
 I'm on a Mac, and I already have Swift 3 installed, so let's start by creating a command-line Swift app, that we'll eventually import Perfect into. 
 
-To do this, I'll make a directory called "til", because that's the name of the project we'll be building in this screencast series. Then, I'll use Swift package manager to initialize a new package of type executable. I'll then use Swift package manager to generate an Xcode project, because I prefer to use Xcode as my IDE. I'll then open up the generated project, switch to the second target, and build and run.
+To do this, I'll make a directory called "hello-perfect", because that's the name of the project we'll be building in this screencast series. Then, I'll use Swift package manager to initialize a new package of type executable. I'll then use Swift package manager to generate an Xcode project, because I prefer to use Xcode as my IDE. I'll then open up the generated project, switch to the second target, and build and run.
 
 ```
-mkdir til
-cd til
+mkdir hello-perfect
+cd hello-perfect
 swift package init --type executable
 swift package generate-xcodeproj
-open ./til.xcodeproj/
+open ./hello-perfect.xcodeproj/
 ```
 
 If I look at the console, I see that it printed Hello World. This is because main.swift contains a print statement for Hello World.
@@ -52,7 +52,7 @@ To do this, I'll open Package.swift and add the required package dependency for 
 import PackageDescription
 
 let package = Package(
-    name: "til",
+    name: "hello-perfect",
     dependencies: [
         .Package(url: "https://github.com/PerfectlySoft/Perfect-HTTPServer.git", majorVersion: 2),        
     ]
@@ -104,7 +104,7 @@ do {
 }
 ```
 
-Before I run this I have to set the working directory for this app to the correct path. To do this, I'll switch to the second target, and click Edit Scheme. In Options, I'll set the working directory to the root directory of this project: the "til" directory.
+Before I run this I have to set the working directory for this app to the correct path. To do this, I'll switch to the second target, and click Edit Scheme. In Options, I'll set the working directory to the root directory of this project: the "hello-perfect" directory.
 
 Now I'll build and run, and I see in the console that Perfect has started a HTTP server on port 8080. I can open a web browser and navigate to localhost:8080/hello.txt and see the file that we created earlier. Nice!
 
