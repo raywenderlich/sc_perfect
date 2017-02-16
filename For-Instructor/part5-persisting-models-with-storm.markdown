@@ -143,9 +143,10 @@ do {
 }
 ```
 
-Next, I'll import PostgresStORM, and configure the database with the test user and database we set up earlier.
+Next, I'll import StORM and PostgresStORM, and configure the database with the test user and database we set up earlier.
 
 ```
+import StORM
 import PostgresStORM
 
 PostgresConnector.host = "localhost"
