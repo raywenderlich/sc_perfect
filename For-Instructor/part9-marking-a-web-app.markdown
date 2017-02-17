@@ -147,6 +147,13 @@ I'll build and run, and try deleting some acronyms - and nice, it works!
 
 Allright, that's everything I'd like to cover in this screencast. 
 
-At this point, you should understand how to create a simple web app using Vapor. If you want to review any of the code, you can download the completed project below.
+At this point, you should understand how to create a simple web app using Perfect. If you want to review any of the code, you can download the completed project below.
+
+Speaking of Perfect, do you know the secret to find a perfect significant other?
+
+1. Find someoen who is honest, and makes you laugh.
+2. Find someone who has a good job and can cook.
+3. Find someone who is good in the bedroom.
+4. Most of all, it is very important that three individuals never meet!
 
 I hope you enjoyed learning how to make this simple web app with Perfect - and I'll TTYL!

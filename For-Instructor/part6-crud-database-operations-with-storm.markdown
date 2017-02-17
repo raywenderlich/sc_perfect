@@ -303,10 +303,8 @@ Now let's try all these out. I can use first to see the first entry, afks to see
 
 ## Conclusion
 
-CRUD - is this screencast over already?! 
-
 At this point, you should understand how to to create, read, update, and delete data in a database using Perfect.
 
-At this point, you may be wondering if there's a better way to organize our code here - there's a lot of repeated code in main.swift, and it's getting quite cluttered. Good news - that's the subject of my next screencast!
+At this point, you may be wondering if there's a better way to organize our code here - there's a lot of crud in main.swift - pun intended - and it's getting quite cluttered. Good news - that's the subject of my next screencast!
 
 Thanks for watching, and I'm out. :]

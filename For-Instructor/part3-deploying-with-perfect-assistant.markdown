@@ -21,7 +21,7 @@ I've already created a fresh AWS account for this screencast, so I'll just log i
 https://aws.amazon.com/
 ```
 
-You'll also need to install the amazon command line tools. To do this, just visit aws.amazon.com/cli and follow the instructions in the sidebar. By the way, when I first tried this on El Capitan I got an erorr, but I just added  "--ignore-installed six" at the end of the command line like this and it worked for me.
+You'll also need to install the amazon command line tools. To do this, just visit aws.amazon.com/cli and follow the instructions in the sidebar. By the way, when I first tried this on El Capitan I got an erorr, but I just added  "--ignore-installed six" at the end of the command line like this and it worked for me. Note you can also install the amazon command line tools via homebrew, if you prefer that.
 
 ```
 https://aws.amazon.com/cli/
@@ -73,7 +73,7 @@ Next we need a project we want to deploy. I happen to have a simple Perfect app 
 http://localhost:8080
 ```
 
-Now let's deploy this. I'll click Build\Deploy, and Create New. I'll choose amazon Web Services, and next. I'll enter perfect for the Configuration Name, note that my perfect ec2 credentials are already selected, and browse to the SSH private key I created earlier. I'll then click Add, click my hello-perfect security group, and make sure that we're using a nano instance, the perfec-key keypair, the availability zone we want, and click Launch.
+Now let's deploy this. I'll click Build\Deploy, and Create New. I'll choose amazon Web Services, and next. I'll enter perfect for the Configuration Name, note that my perfect ec2 credentials are already selected, and browse to the SSH private key I created earlier. I'll then click Add, click my hello-perfect security group, and make sure that we're using a micro instance - because that is what is Free Tier eligible, the perfect-key keypair, the availability zone we want, and click Launch.
 
 After a while, I'll see success in the console. If I click reload, I see my new instance. I can also see this in the AWS dashboard. 
 

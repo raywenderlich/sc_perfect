@@ -216,4 +216,4 @@ At this point, you should understand how to easily beautify your Perfect web app
 
 You've learned a lot about Perfect at this point, and you're probably eager to put together everything you've learned into a complete web app. Well good news - that is the subject of my next screencast!
 
-I hope that you enjoy Skeleton as much as I do, and I hope that you can use it to give your next project some solid... bones. I'm out!
+By the way, do you know why the skeletons never get scared? Because nothing gets under their skin. I'm out!

@@ -234,4 +234,4 @@ At this point, you should understand how to persist your model objects in a data
 
 There's a lot more you can do beyond just saving an model object to the database - you can also perform queries, delete data, and more - and that's the subject of my next screencast.
 
-Speaking of models, you know I've never understood fashion models in real life - those people are just so clothes minded. Anyway - I'm out! :]
+Speaking of models, do you know how to scare a model on Instagram? Say "I know what you wore last summer." Anyway - I'm out! :]

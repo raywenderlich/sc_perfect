@@ -163,4 +163,4 @@ At this point, you should understand how to refactor your code out of your main.
 
 Keep in mind this is one of many solutions - feel free to design things differently if it makes sense to you. The important thing is to avoid duplication and clutter as much as you can, and have clear areas of responsibility.
 
-I hope that this screencast has helped you better... control your web app architecture. I'm out!
+All this talk controllers reminds me of the first time I saw a universal remote control. I thought to myself, "Well, this changes everything." I apologize - I know that wasn't even remotely funny. I'm out!
